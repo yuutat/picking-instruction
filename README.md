@@ -1,4 +1,39 @@
 # PFN Picking Instructions for Commodities Dataset (PFN-PIC)
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "name": "PFN Picking Instructions for Commodities Dataset (PFN-PIC)",
+  "description": "This dataset is a collection of spoken language instructions for a robotic system to pick and place common objects. Text instructions and corresponding object images are provided.",
+  "url": "https://github.com/pfnet-research/picking-instruction",
+  "sameAs": "https://preferredjp.app.box.com/v/pfn-pic-dataset-main",
+  "citation": "Jun Hatori, Yuta Kikuchi, Sosuke Kobayashi, Kuniyuki Takahashi, Yuta Tsuboi, Yuya Unno, Wilson Ko, Jethro Tan. Interactively Picking Real-World Objects with Unconstrained Spoken Language Instructions, Proceedings of International Conference on Robotics and Automation (ICRA2018), 2018.",
+  "keywords": [
+    "robotics",
+    "pick and place",
+    "spoken language instruction",
+    "PFN"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "JSON,PNG",
+      "contentUrl": "https://preferredjp.box.com/v/pfn-pic-dataset-main"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "PCD",
+      "contentUrl": "https://preferredjp.box.com/v/pfn-pic-dataset-pcd1"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "PCD",
+      "contentUrl": "https://preferredjp.box.com/v/pfn-pic-dataset-pcd2"
+    }
+  ]
+}
+</script>
+
 This dataset is a collection of spoken language instructions for a robotic system to pick and place common objects. Text instructions and corresponding object images are provided.
 
 [Download (dataset-main.zip)](https://preferredjp.box.com/v/pfn-pic-dataset-main)
